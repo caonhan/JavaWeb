@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\CaoNhan\AppData\Local\Temp\testng-eclipse-1518375642\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testConvertEntityToModel">testConvertEntityToModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testConvertEntityToModelWithNullEntity">testConvertEntityToModelWithNullEntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testConvertModelToEntityWithNullModel">testConvertModelToEntityWithNullModel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testDeleteDetail">testDeleteDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testDeleteDetailThrowException">testDeleteDetailThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testDeleteStockRequisitionById">testDeleteStockRequisitionById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testDeleteStockRequisitionById">testDeleteStockRequisitionById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testDeleteStockRequisitionByIdNotExist">testDeleteStockRequisitionByIdNotExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testDeleteStockRequisitionByIdThrowException">testDeleteStockRequisitionByIdThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testDeleteStockRequisitionDetailsById">testDeleteStockRequisitionDetailsById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testDeleteStockRequisitionDetailsByIdNotExist">testDeleteStockRequisitionDetailsByIdNotExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllDetailEntity">testFindAllDetailEntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllDetailEntityWithFakeId">testFindAllDetailEntityWithFakeId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllDetailsById">testFindAllDetailsById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllDetailsByIdNotExist">testFindAllDetailsByIdNotExist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllElementEntity">testFindAllElementEntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindAllStockRequisitions">testFindAllStockRequisitions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindById">testFindById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testFindUnexistingId">testFindUnexistingId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetAllDetailsById">testGetAllDetailsById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetAllDetailsByIdThrowException">testGetAllDetailsByIdThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetAllStockRequisitions">testGetAllStockRequisitions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetAllStockRequisitionsThrowException">testGetAllStockRequisitionsThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testGetDataFromLimitInventory">testGetDataFromLimitInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testGetDataFromNullLimitInventory">testGetDataFromNullLimitInventory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetDetailById">testGetDetailById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetDetailByIdReturnNull">testGetDetailByIdReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetDetailByIdThrowException">testGetDetailByIdThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetStockRequisitionById">testGetStockRequisitionById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetStockRequisitionByIdReturnNull">testGetStockRequisitionByIdReturnNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testGetStockRequisitionByIdThrowException">testGetStockRequisitionByIdThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testSaveDetail">testSaveDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testSaveOrUpdateDetailThrowException">testSaveOrUpdateDetailThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testSaveOrUpdateDetails">testSaveOrUpdateDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testSaveOrUpdateNullDetails">testSaveOrUpdateNullDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testSaveOrUpdateStockRequisitionNullException">testSaveOrUpdateStockRequisitionNullException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testSaveStockRequisition">testSaveStockRequisition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testSaveStockRequisition">testSaveStockRequisition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testSaveStockRequisitionThrowException">testSaveStockRequisitionThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testUpdateDetail">testUpdateDetail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testUpdateStockRequisition">testUpdateStockRequisition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testUpdateStockRequisition">testUpdateStockRequisition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.dao.StockRequisitionDAOTest" hash-for-method="testUpdateStockRequisitionThrowException">testUpdateStockRequisitionThrowException</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testfindAllElementEntityNull">testfindAllElementEntityNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testfindAllMaterialEntity">testfindAllMaterialEntity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.serp.service.StockRequisitionServiceTest" hash-for-method="testfindAllMaterialEntityNull">testfindAllMaterialEntityNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.serp.service.StockRequisitionServiceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertEntityToModel">
+                  </a> <!-- testConvertEntityToModel -->
+                  <span class="method-name">testConvertEntityToModel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertEntityToModelWithNullEntity">
+                  </a> <!-- testConvertEntityToModelWithNullEntity -->
+                  <span class="method-name">testConvertEntityToModelWithNullEntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvertModelToEntityWithNullModel">
+                  </a> <!-- testConvertModelToEntityWithNullModel -->
+                  <span class="method-name">testConvertModelToEntityWithNullModel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionById">
+                  </a> <!-- testDeleteStockRequisitionById -->
+                  <span class="method-name">testDeleteStockRequisitionById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionByIdNotExist">
+                  </a> <!-- testDeleteStockRequisitionByIdNotExist -->
+                  <span class="method-name">testDeleteStockRequisitionByIdNotExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionDetailsById">
+                  </a> <!-- testDeleteStockRequisitionDetailsById -->
+                  <span class="method-name">testDeleteStockRequisitionDetailsById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionDetailsByIdNotExist">
+                  </a> <!-- testDeleteStockRequisitionDetailsByIdNotExist -->
+                  <span class="method-name">testDeleteStockRequisitionDetailsByIdNotExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllDetailEntity">
+                  </a> <!-- testFindAllDetailEntity -->
+                  <span class="method-name">testFindAllDetailEntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllDetailEntityWithFakeId">
+                  </a> <!-- testFindAllDetailEntityWithFakeId -->
+                  <span class="method-name">testFindAllDetailEntityWithFakeId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllDetailsById">
+                  </a> <!-- testFindAllDetailsById -->
+                  <span class="method-name">testFindAllDetailsById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllDetailsByIdNotExist">
+                  </a> <!-- testFindAllDetailsByIdNotExist -->
+                  <span class="method-name">testFindAllDetailsByIdNotExist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllElementEntity">
+                  </a> <!-- testFindAllElementEntity -->
+                  <span class="method-name">testFindAllElementEntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindAllStockRequisitions">
+                  </a> <!-- testFindAllStockRequisitions -->
+                  <span class="method-name">testFindAllStockRequisitions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindById">
+                  </a> <!-- testFindById -->
+                  <span class="method-name">testFindById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindUnexistingId">
+                  </a> <!-- testFindUnexistingId -->
+                  <span class="method-name">testFindUnexistingId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDataFromLimitInventory">
+                  </a> <!-- testGetDataFromLimitInventory -->
+                  <span class="method-name">testGetDataFromLimitInventory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDataFromNullLimitInventory">
+                  </a> <!-- testGetDataFromNullLimitInventory -->
+                  <span class="method-name">testGetDataFromNullLimitInventory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOrUpdateDetails">
+                  </a> <!-- testSaveOrUpdateDetails -->
+                  <span class="method-name">testSaveOrUpdateDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOrUpdateNullDetails">
+                  </a> <!-- testSaveOrUpdateNullDetails -->
+                  <span class="method-name">testSaveOrUpdateNullDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOrUpdateStockRequisitionNullException">
+                  </a> <!-- testSaveOrUpdateStockRequisitionNullException -->
+                  <span class="method-name">testSaveOrUpdateStockRequisitionNullException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveStockRequisition">
+                  </a> <!-- testSaveStockRequisition -->
+                  <span class="method-name">testSaveStockRequisition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateStockRequisition">
+                  </a> <!-- testUpdateStockRequisition -->
+                  <span class="method-name">testUpdateStockRequisition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindAllElementEntityNull">
+                  </a> <!-- testfindAllElementEntityNull -->
+                  <span class="method-name">testfindAllElementEntityNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindAllMaterialEntity">
+                  </a> <!-- testfindAllMaterialEntity -->
+                  <span class="method-name">testfindAllMaterialEntity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testfindAllMaterialEntityNull">
+                  </a> <!-- testfindAllMaterialEntityNull -->
+                  <span class="method-name">testfindAllMaterialEntityNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.serp.dao.StockRequisitionDAOTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteDetail">
+                  </a> <!-- testDeleteDetail -->
+                  <span class="method-name">testDeleteDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteDetailThrowException">
+                  </a> <!-- testDeleteDetailThrowException -->
+                  <span class="method-name">testDeleteDetailThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionById">
+                  </a> <!-- testDeleteStockRequisitionById -->
+                  <span class="method-name">testDeleteStockRequisitionById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteStockRequisitionByIdThrowException">
+                  </a> <!-- testDeleteStockRequisitionByIdThrowException -->
+                  <span class="method-name">testDeleteStockRequisitionByIdThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllDetailsById">
+                  </a> <!-- testGetAllDetailsById -->
+                  <span class="method-name">testGetAllDetailsById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllDetailsByIdThrowException">
+                  </a> <!-- testGetAllDetailsByIdThrowException -->
+                  <span class="method-name">testGetAllDetailsByIdThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllStockRequisitions">
+                  </a> <!-- testGetAllStockRequisitions -->
+                  <span class="method-name">testGetAllStockRequisitions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllStockRequisitionsThrowException">
+                  </a> <!-- testGetAllStockRequisitionsThrowException -->
+                  <span class="method-name">testGetAllStockRequisitionsThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDetailById">
+                  </a> <!-- testGetDetailById -->
+                  <span class="method-name">testGetDetailById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDetailByIdReturnNull">
+                  </a> <!-- testGetDetailByIdReturnNull -->
+                  <span class="method-name">testGetDetailByIdReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetDetailByIdThrowException">
+                  </a> <!-- testGetDetailByIdThrowException -->
+                  <span class="method-name">testGetDetailByIdThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStockRequisitionById">
+                  </a> <!-- testGetStockRequisitionById -->
+                  <span class="method-name">testGetStockRequisitionById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStockRequisitionByIdReturnNull">
+                  </a> <!-- testGetStockRequisitionByIdReturnNull -->
+                  <span class="method-name">testGetStockRequisitionByIdReturnNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetStockRequisitionByIdThrowException">
+                  </a> <!-- testGetStockRequisitionByIdThrowException -->
+                  <span class="method-name">testGetStockRequisitionByIdThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveDetail">
+                  </a> <!-- testSaveDetail -->
+                  <span class="method-name">testSaveDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveOrUpdateDetailThrowException">
+                  </a> <!-- testSaveOrUpdateDetailThrowException -->
+                  <span class="method-name">testSaveOrUpdateDetailThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveStockRequisition">
+                  </a> <!-- testSaveStockRequisition -->
+                  <span class="method-name">testSaveStockRequisition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSaveStockRequisitionThrowException">
+                  </a> <!-- testSaveStockRequisitionThrowException -->
+                  <span class="method-name">testSaveStockRequisitionThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateDetail">
+                  </a> <!-- testUpdateDetail -->
+                  <span class="method-name">testUpdateDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateStockRequisition">
+                  </a> <!-- testUpdateStockRequisition -->
+                  <span class="method-name">testUpdateStockRequisition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateStockRequisitionThrowException">
+                  </a> <!-- testUpdateStockRequisitionThrowException -->
+                  <span class="method-name">testUpdateStockRequisitionThrowException</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CaoNhan\AppData\Local\Temp\testng-eclipse-1518375642\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.serp.entity.UserEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.UserDaoTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.EstimateDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.MaterialController&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.LimitInventoryController&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.OrderEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.LimitInventoryDetail&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.FunctionDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.StockRequisition&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.TechnologyController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.SerpCustomerHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingDocumentDaoTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.FunctionController&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.CustomerController&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProcessingTechnologyDetail&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.RoleDaoTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.UserService&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.SecurityConfiguration&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.CustomerHomeTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.RoleServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.RoleEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.QuotationController&quot;/&gt;
+      &lt;class name=&quot;com.serp.testSuite.AllTests&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.StatusDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.HibernateConfiguration&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.ProcessingTechnologyEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.MaterialDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Status&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingTechnologyDAOTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingDocumentServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.LimitInventoryEntity_Dat&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.LimitInventoryDetailEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramDetailDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Element&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ElementServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.FunctionServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.EstimateDetail&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.SerpEstimateDetailHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Function&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.RoleService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.CustomerServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.HomeController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.StatusDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingDocumentTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.CheckTechnology&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.FunctionService&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.JstlView&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.LimitInventoryDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingTechnologyServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDAOTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Estimate&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.MaterialServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProductionOrderHomeImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.EstimateEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.testRun.ProcessingProgramDAOImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.EstimateDetailDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.SerpEstimateHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.TechnologyServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.EstimateServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.ProductionOrderController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.RoleDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingTechnologyService&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.ElementEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingDocumentDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.UserDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.EstimateDAOImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Role&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.EstimateServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProcessingDocument&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Quotationdetails&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.RoleHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingDocumentHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.testRun.TespApp&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramDetailDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.EstimateService&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.ProcessingDocumentController&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingDocumentService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingProgramService&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.TechnologyDaoImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.StockRequisitionDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.MaterialDaoImp&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.LimitInventoryService&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.ProcessingProgramController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.UserHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.StockRequisitionDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.EstimateDetailDaoImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.ProcessingTechnologyEntity_Dat&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.StatusEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.EstimateDetailServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingTechnologyHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.StockRequisitionService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.TechnologyServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.StockRequisitionServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Customer&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.SerpElementHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.CustomerService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ElementService&quot;/&gt;
+      &lt;class name=&quot;com.serp.testRun.ProcessingProgramDetailServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.User&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.CustomerEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.EstimateDetailValidator&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.CustomUserDetailsService&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.StockRequisitionDAOTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.OrdersHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Quotation&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Orders&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingProgramDetailServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingTechnologyImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.UserController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.FunctionDaoTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.StockRequisitionController&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.Material&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.EstimateDetailService&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.FunctionHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDetailDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.QuotationDetailsServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.ProductionOrderEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.TechnologyDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.FunctionEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.EstimateDetailEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.UserLoginService&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.MaterialEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingTechnologyServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.LimitInventoryDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.SecurityWebApplicationInitializer&quot;/&gt;
+      &lt;class name=&quot;com.serp.testRun.ProcessingProgramServiceImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingTechnologyDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.LoginController&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.MaterialDaoTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.RoleController&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.OrderController&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.EstimateController&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.StockRequisitionDetails&quot;/&gt;
+      &lt;class name=&quot;com.serp.testRun.ProcessingProgramDetailDAOImplTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.UserServiceTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.QuotationDetailsService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.LimitInventoryServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.controller.ProcessingTechnologyController&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProcessingTechnology&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProductionOrderHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.TechnologyService&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProcessingProgram&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProductionOrder&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ProcessingProgramDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.QuotationEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.AppConfig&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingProgramDetailService&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.LimitInventory&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.EstimateDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.MaterialService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.StatusService&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.StatusServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDetailDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.SerpProductionOrderHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.OrdersDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ElementDAO&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.QuotationServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.StockRequisitionServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.QuotationDetailDAOTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.QuotationDetailEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.ElementDAOImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.StockRequisitionDetailsEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.MaterialServiceImp&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.UserLoginDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProductionOrderServiceImmpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProcessingProgramServiceImpl&quot;/&gt;
+      &lt;class name=&quot;com.serp.configuration.AppInitializer&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.CustomerHome&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.QuotationService&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.OrdersDAOTest&quot;/&gt;
+      &lt;class name=&quot;com.serp.entity.ProcessingDocumentEntity&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.ProductionOrderService&quot;/&gt;
+      &lt;class name=&quot;com.serp.dao.AbstractDao&quot;/&gt;
+      &lt;class name=&quot;com.serp.model.ProcessingProgramDetail&quot;/&gt;
+      &lt;class name=&quot;com.serp.service.OrderService&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (180 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testConvertEntityToModel')
+data.setCell(0, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(0, 3, 27);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDeleteDetail')
+data.setCell(1, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(1, 3, 9);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testUpdateStockRequisition')
+data.setCell(2, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetAllDetailsById')
+data.setCell(3, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(3, 3, 6);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetStockRequisitionById')
+data.setCell(4, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(4, 3, 4);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteStockRequisitionByIdNotExist')
+data.setCell(5, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetAllDetailsByIdThrowException')
+data.setCell(6, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDeleteStockRequisitionByIdThrowException')
+data.setCell(7, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(7, 3, 4);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDeleteStockRequisitionById')
+data.setCell(8, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(8, 3, 3);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDeleteDetailThrowException')
+data.setCell(9, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(9, 3, 3);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testFindAllStockRequisitions')
+data.setCell(10, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(10, 3, 3);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUpdateStockRequisitionThrowException')
+data.setCell(11, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSaveStockRequisition')
+data.setCell(12, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testConvertEntityToModelWithNullEntity')
+data.setCell(13, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(13, 3, 2);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testFindAllDetailsById')
+data.setCell(14, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSaveOrUpdateStockRequisitionNullException')
+data.setCell(15, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testGetDetailByIdThrowException')
+data.setCell(16, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetAllStockRequisitions')
+data.setCell(17, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGetAllStockRequisitionsThrowException')
+data.setCell(18, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testSaveOrUpdateDetailThrowException')
+data.setCell(19, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testUpdateDetail')
+data.setCell(20, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testGetDetailByIdReturnNull')
+data.setCell(21, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testDeleteStockRequisitionById')
+data.setCell(22, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testSaveStockRequisitionThrowException')
+data.setCell(23, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testDeleteStockRequisitionDetailsById')
+data.setCell(24, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testDeleteStockRequisitionDetailsByIdNotExist')
+data.setCell(25, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testFindAllDetailEntity')
+data.setCell(26, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testGetDetailById')
+data.setCell(27, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testFindAllDetailsByIdNotExist')
+data.setCell(28, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testGetStockRequisitionByIdReturnNull')
+data.setCell(29, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testfindAllMaterialEntityNull')
+data.setCell(30, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testConvertModelToEntityWithNullModel')
+data.setCell(31, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testFindById')
+data.setCell(32, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testGetDataFromLimitInventory')
+data.setCell(33, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSaveStockRequisition')
+data.setCell(34, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(34, 3, 1);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testfindAllMaterialEntity')
+data.setCell(35, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(35, 3, 1);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSaveDetail')
+data.setCell(36, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(36, 3, 1);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testUpdateStockRequisition')
+data.setCell(37, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(37, 3, 1);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testFindAllElementEntity')
+data.setCell(38, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(38, 3, 1);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSaveOrUpdateDetails')
+data.setCell(39, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(39, 3, 1);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testGetStockRequisitionByIdThrowException')
+data.setCell(40, 2, 'com.serp.dao.StockRequisitionDAOTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testFindAllDetailEntityWithFakeId')
+data.setCell(41, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testSaveOrUpdateNullDetails')
+data.setCell(42, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testFindUnexistingId')
+data.setCell(43, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(43, 3, 0);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testGetDataFromNullLimitInventory')
+data.setCell(44, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testfindAllElementEntityNull')
+data.setCell(45, 2, 'com.serp.service.StockRequisitionServiceTest')
+data.setCell(45, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 119 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.serp.service.StockRequisitionServiceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testConvertEntityToModel</span>
+                <span class="method-start">686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertEntityToModelWithNullEntity</span>
+                <span class="method-start">715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConvertModelToEntityWithNullModel</span>
+                <span class="method-start">721 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionById</span>
+                <span class="method-start">727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionByIdNotExist</span>
+                <span class="method-start">731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionDetailsById</span>
+                <span class="method-start">736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionDetailsByIdNotExist</span>
+                <span class="method-start">737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllDetailEntity</span>
+                <span class="method-start">740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllDetailEntityWithFakeId</span>
+                <span class="method-start">742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllDetailsById</span>
+                <span class="method-start">747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllDetailsByIdNotExist</span>
+                <span class="method-start">750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllElementEntity</span>
+                <span class="method-start">754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindAllStockRequisitions</span>
+                <span class="method-start">756 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindById</span>
+                <span class="method-start">760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFindUnexistingId</span>
+                <span class="method-start">762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDataFromLimitInventory</span>
+                <span class="method-start">763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetDataFromNullLimitInventory</span>
+                <span class="method-start">765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveOrUpdateDetails</span>
+                <span class="method-start">766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveOrUpdateNullDetails</span>
+                <span class="method-start">768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveOrUpdateStockRequisitionNullException</span>
+                <span class="method-start">770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSaveStockRequisition</span>
+                <span class="method-start">773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateStockRequisition</span>
+                <span class="method-start">777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindAllElementEntityNull</span>
+                <span class="method-start">786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindAllMaterialEntity</span>
+                <span class="method-start">787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testfindAllMaterialEntityNull</span>
+                <span class="method-start">788 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.serp.dao.StockRequisitionDAOTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">792 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteDetail</span>
+                <span class="method-start">1034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteDetailThrowException</span>
+                <span class="method-start">1052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionById</span>
+                <span class="method-start">1064 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1076 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteStockRequisitionByIdThrowException</span>
+                <span class="method-start">1078 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1097 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllDetailsById</span>
+                <span class="method-start">1101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllDetailsByIdThrowException</span>
+                <span class="method-start">1124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllStockRequisitions</span>
+                <span class="method-start">1136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAllStockRequisitionsThrowException</span>
+                <span class="method-start">1148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1154 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetDetailById</span>
+                <span class="method-start">1158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetDetailByIdReturnNull</span>
+                <span class="method-start">1189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetDetailByIdThrowException</span>
+                <span class="method-start">1198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetStockRequisitionById</span>
+                <span class="method-start">1210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetStockRequisitionByIdReturnNull</span>
+                <span class="method-start">1220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetStockRequisitionByIdThrowException</span>
+                <span class="method-start">1224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveDetail</span>
+                <span class="method-start">1230 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveOrUpdateDetailThrowException</span>
+                <span class="method-start">1235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1238 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveStockRequisition</span>
+                <span class="method-start">1241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1246 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSaveStockRequisitionThrowException</span>
+                <span class="method-start">1248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateDetail</span>
+                <span class="method-start">1255 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateStockRequisition</span>
+                <span class="method-start">1270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateStockRequisitionThrowException</span>
+                <span class="method-start">1281 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

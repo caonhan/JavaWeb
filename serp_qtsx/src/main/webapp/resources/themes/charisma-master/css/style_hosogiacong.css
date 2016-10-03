@@ -1,0 +1,21 @@
+select{
+ width:100%;
+
+}
+
+button{
+	width : 100%;
+}
+
+td p{
+	margin-left: 0px;
+	width: 70%;
+}
+
+#remind{
+	color : red;
+}
+
+#intro{
+	color: red;
+}

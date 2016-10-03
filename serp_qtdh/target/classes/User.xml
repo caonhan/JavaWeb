@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<users UserID="US1"	FullName="Nhan Tran"	PhoneNumber="019012548"		Department="QTSC"	Address="HCMC"	Email="nhanct@gcs-vn.com"	Status="true"	Id="1" 		Password="123123"	SecretAnswer="ABCD"		/>
+	<users UserID="US2"	FullName="Nhan Tran"	PhoneNumber="019012548"		Department="QTSC"	Address="HCMC"	Email="nhanct@gcs-vn.com"	Status="true"	Id="2" 		Password="123123"	SecretAnswer="ABCD"		/>
+</dataset>

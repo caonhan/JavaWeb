@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="975" started-at="2016-09-26T12:53:38Z" finished-at="2016-09-26T12:53:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="975" started-at="2016-09-26T12:53:38Z" finished-at="2016-09-26T12:53:39Z">
+      <class name="com.gcs.serp_qtdh.controller.AppControllerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="setUp" is-config="true" duration-ms="633" started-at="2016-09-26T19:53:38Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="deleteEmployee" duration-ms="42" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="editEmployee()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="editEmployee" duration-ms="56" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEmployee -->
+        <test-method status="FAIL" signature="listEmployees()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="listEmployees" duration-ms="3" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [allemployees] but found [login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [allemployees] but found [login]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.gcs.serp_qtdh.controller.AppControllerTest.listEmployees(AppControllerTest.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listEmployees -->
+        <test-method status="PASS" signature="newEmployee()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="newEmployee" duration-ms="3" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployee -->
+        <test-method status="PASS" signature="saveEmployeeWithSuccess()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="saveEmployeeWithSuccess" duration-ms="3" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithSuccess -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationError()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="saveEmployeeWithValidationError" duration-ms="5" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationError -->
+        <test-method status="PASS" signature="saveEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="saveEmployeeWithValidationErrorNonUniqueSSN" duration-ms="46" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveEmployeeWithValidationErrorNonUniqueSSN -->
+        <test-method status="PASS" signature="updateEmployeeWithSuccess()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="updateEmployeeWithSuccess" duration-ms="5" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithSuccess -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationError()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="updateEmployeeWithValidationError" duration-ms="2" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationError -->
+        <test-method status="PASS" signature="updateEmployeeWithValidationErrorNonUniqueSSN()[pri:0, instance:com.gcs.serp_qtdh.controller.AppControllerTest@6aaa5eb0]" name="updateEmployeeWithValidationErrorNonUniqueSSN" duration-ms="2" started-at="2016-09-26T19:53:39Z" finished-at="2016-09-26T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeWithValidationErrorNonUniqueSSN -->
+      </class> <!-- com.gcs.serp_qtdh.controller.AppControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

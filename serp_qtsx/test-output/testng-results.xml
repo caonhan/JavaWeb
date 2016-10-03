@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="46" passed="46">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1301" started-at="2016-07-23T02:47:38Z" finished-at="2016-07-23T02:47:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1301" started-at="2016-07-23T02:47:38Z" finished-at="2016-07-23T02:47:39Z">
+      <class name="com.serp.dao.StockRequisitionDAOTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="242" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteDetail()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testDeleteDetail" duration-ms="9" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDetail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteDetailThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testDeleteDetailThrowException" duration-ms="3" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.deleteStockRequisitionDetails(StockRequisitionDAOImpl.java:238)
+	at com.serp.dao.StockRequisitionDAOTest.testDeleteDetailThrowException(StockRequisitionDAOTest.java:231)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteDetailThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionById()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testDeleteStockRequisitionById" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionById -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionByIdThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testDeleteStockRequisitionByIdThrowException" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.deleteStockRequisition(StockRequisitionDAOImpl.java:164)
+	at com.serp.dao.StockRequisitionDAOTest.testDeleteStockRequisitionByIdThrowException(StockRequisitionDAOTest.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionByIdThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllDetailsById()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetAllDetailsById" duration-ms="6" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDetailsById -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllDetailsByIdThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetAllDetailsByIdThrowException" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.serp.dao.StockRequisitionDAOImpl.getAllDetailsByRequisitionId(StockRequisitionDAOImpl.java:266)
+	at com.serp.dao.StockRequisitionDAOTest.testGetAllDetailsByIdThrowException(StockRequisitionDAOTest.java:259)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllDetailsByIdThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllStockRequisitions()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetAllStockRequisitions" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllStockRequisitions -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetAllStockRequisitionsThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetAllStockRequisitionsThrowException" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.getAllStockRequisitions(StockRequisitionDAOImpl.java:187)
+	at com.serp.dao.StockRequisitionDAOTest.testGetAllStockRequisitionsThrowException(StockRequisitionDAOTest.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllStockRequisitionsThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetDetailById()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetDetailById" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDetailById -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="26" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetDetailByIdReturnNull()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetDetailByIdReturnNull" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDetailByIdReturnNull -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetDetailByIdThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetDetailByIdThrowException" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.getDetailById(StockRequisitionDAOImpl.java:286)
+	at com.serp.dao.StockRequisitionDAOTest.testGetDetailByIdThrowException(StockRequisitionDAOTest.java:280)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDetailByIdThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetStockRequisitionById()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetStockRequisitionById" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStockRequisitionById -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetStockRequisitionByIdReturnNull()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetStockRequisitionByIdReturnNull" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStockRequisitionByIdReturnNull -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetStockRequisitionByIdThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testGetStockRequisitionByIdThrowException" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.serp.dao.StockRequisitionDAOImpl.getStockRequisitionById(StockRequisitionDAOImpl.java:138)
+	at com.serp.dao.StockRequisitionDAOTest.testGetStockRequisitionByIdThrowException(StockRequisitionDAOTest.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetStockRequisitionByIdThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSaveDetail()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testSaveDetail" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveDetail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSaveOrUpdateDetailThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testSaveOrUpdateDetailThrowException" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.saveOrUpdateStockRequisitionDetails(StockRequisitionDAOImpl.java:214)
+	at com.serp.dao.StockRequisitionDAOTest.testSaveOrUpdateDetailThrowException(StockRequisitionDAOTest.java:201)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOrUpdateDetailThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSaveStockRequisition()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testSaveStockRequisition" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveStockRequisition -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testSaveStockRequisitionThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testSaveStockRequisitionThrowException" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.saveStockRequisition(StockRequisitionDAOImpl.java:71)
+	at com.serp.dao.StockRequisitionDAOTest.testSaveStockRequisitionThrowException(StockRequisitionDAOTest.java:308)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveStockRequisitionThrowException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testUpdateDetail()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testUpdateDetail" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateDetail -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testUpdateStockRequisition()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testUpdateStockRequisition" duration-ms="1" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStockRequisition -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testUpdateStockRequisitionThrowException()[pri:0, instance:com.serp.dao.StockRequisitionDAOTest@2df32bf7]" name="testUpdateStockRequisitionThrowException" duration-ms="2" started-at="2016-07-23T09:47:39Z" finished-at="2016-07-23T09:47:39Z">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.serp.dao.StockRequisitionDAOImpl.updateStockRequisition(StockRequisitionDAOImpl.java:106)
+	at com.serp.dao.StockRequisitionDAOTest.testUpdateStockRequisitionThrowException(StockRequisitionDAOTest.java:328)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStockRequisitionThrowException -->
+      </class> <!-- com.serp.dao.StockRequisitionDAOTest -->
+      <class name="com.serp.service.StockRequisitionServiceTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="beforeClass" is-config="true" duration-ms="683" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testConvertEntityToModel()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testConvertEntityToModel" duration-ms="27" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertEntityToModel -->
+        <test-method status="PASS" signature="testConvertEntityToModelWithNullEntity()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testConvertEntityToModelWithNullEntity" duration-ms="2" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertEntityToModelWithNullEntity -->
+        <test-method status="PASS" signature="testConvertModelToEntityWithNullModel()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testConvertModelToEntityWithNullModel" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvertModelToEntityWithNullModel -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionById()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testDeleteStockRequisitionById" duration-ms="3" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionById -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionByIdNotExist()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testDeleteStockRequisitionByIdNotExist" duration-ms="4" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionByIdNotExist -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionDetailsById()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testDeleteStockRequisitionDetailsById" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionDetailsById -->
+        <test-method status="PASS" signature="testDeleteStockRequisitionDetailsByIdNotExist()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testDeleteStockRequisitionDetailsByIdNotExist" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteStockRequisitionDetailsByIdNotExist -->
+        <test-method status="PASS" signature="testFindAllDetailEntity()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllDetailEntity" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllDetailEntity -->
+        <test-method status="PASS" signature="testFindAllDetailEntityWithFakeId()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllDetailEntityWithFakeId" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllDetailEntityWithFakeId -->
+        <test-method status="PASS" signature="testFindAllDetailsById()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllDetailsById" duration-ms="2" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllDetailsById -->
+        <test-method status="PASS" signature="testFindAllDetailsByIdNotExist()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllDetailsByIdNotExist" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.serp.service.StockRequisitionServiceImpl.findAllDetailsById(StockRequisitionServiceImpl.java:190)
+	at com.serp.service.StockRequisitionServiceTest.testFindAllDetailsByIdNotExist(StockRequisitionServiceTest.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllDetailsByIdNotExist -->
+        <test-method status="PASS" signature="testFindAllElementEntity()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllElementEntity" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllElementEntity -->
+        <test-method status="PASS" signature="testFindAllStockRequisitions()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindAllStockRequisitions" duration-ms="3" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindAllStockRequisitions -->
+        <test-method status="PASS" signature="testFindById()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindById" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindById -->
+        <test-method status="PASS" signature="testFindUnexistingId()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testFindUnexistingId" duration-ms="0" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindUnexistingId -->
+        <test-method status="PASS" signature="testGetDataFromLimitInventory()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testGetDataFromLimitInventory" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataFromLimitInventory -->
+        <test-method status="PASS" signature="testGetDataFromNullLimitInventory()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testGetDataFromNullLimitInventory" duration-ms="0" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetDataFromNullLimitInventory -->
+        <test-method status="PASS" signature="testSaveOrUpdateDetails()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testSaveOrUpdateDetails" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOrUpdateDetails -->
+        <test-method status="PASS" signature="testSaveOrUpdateNullDetails()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testSaveOrUpdateNullDetails" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOrUpdateNullDetails -->
+        <test-method status="PASS" signature="testSaveOrUpdateStockRequisitionNullException()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testSaveOrUpdateStockRequisitionNullException" duration-ms="2" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.serp.service.StockRequisitionServiceImpl.saveOrUpdate(StockRequisitionServiceImpl.java:58)
+	at com.serp.service.StockRequisitionServiceTest.testSaveOrUpdateStockRequisitionNullException(StockRequisitionServiceTest.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveOrUpdateStockRequisitionNullException -->
+        <test-method status="PASS" signature="testSaveStockRequisition()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testSaveStockRequisition" duration-ms="2" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaveStockRequisition -->
+        <test-method status="PASS" signature="testUpdateStockRequisition()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testUpdateStockRequisition" duration-ms="8" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStockRequisition -->
+        <test-method status="PASS" signature="testfindAllElementEntityNull()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testfindAllElementEntityNull" duration-ms="0" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfindAllElementEntityNull -->
+        <test-method status="PASS" signature="testfindAllMaterialEntity()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testfindAllMaterialEntity" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfindAllMaterialEntity -->
+        <test-method status="PASS" signature="testfindAllMaterialEntityNull()[pri:0, instance:com.serp.service.StockRequisitionServiceTest@7f416310]" name="testfindAllMaterialEntityNull" duration-ms="1" started-at="2016-07-23T09:47:38Z" finished-at="2016-07-23T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfindAllMaterialEntityNull -->
+      </class> <!-- com.serp.service.StockRequisitionServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
